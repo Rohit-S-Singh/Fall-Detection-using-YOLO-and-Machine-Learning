@@ -15,8 +15,9 @@ TensorFlow
 You can install these libraries using pip:
 
 ## Command to install required libraries
+```
 pip install opencv-python numpy scikit-learn keras tensorflow
-
+```
 ## Dataset
 The dataset used to train the machine learning model consists of videos of people falling and performing daily activities. The videos were collected from various sources, such as YouTube, and manually annotated to label each frame as either a fall or a non-fall event.
 
@@ -28,8 +29,10 @@ After detecting people in each frame of the video, features are extracted from e
 
 ## Usage
 To use this fall detection system, run the following command:
-
+```
 python detect_fall.py --video <path-to-video>
+
+```
 This will detect falls in the specified video and output the results to the console.
 
 ## References
